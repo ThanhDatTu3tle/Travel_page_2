@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body,
+html {
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 60%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 800px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 80px;
+    width: 800px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    display: flex;
+    margin: 0px 30px;
+    color: white;
+    font-size: 22px;
+}
+
+.cross {
+    width: 630px;
+    height: 3px;
+    background-color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.main-name {
+    font-size: 85px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.content {
+    font-size: 25px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 25px 50px 0px 0px;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.lake-troll {
+    margin: 80px 100px 0px 40px;
+    color: white;
+    font-size: 25px;
+    width: 400px;
+}
+
+.aletsch-glacier {
+    margin: 80px 0px 0px 100px;
+    color: white;
+    font-size: 25px;
+    width: 300px;
+}
+
+.star {
+    margin: 20px 0px 20px 0px;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 30px 0px 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px 20px;
+}
+
+.mini-cross {
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin-left: 200px;
+}
